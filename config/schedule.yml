@@ -1,0 +1,3 @@
+create_launches_worker:
+  cron: "/1 * * * *"
+  class: "CreateLaunchesWorker"
